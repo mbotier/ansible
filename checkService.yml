@@ -1,5 +1,5 @@
 ---
-  - hosts: centos-s-1vcpu-1gb-nyc1-01
+  - hosts: 157.230.10.90
     become: true
     tasks:
       - name: ensure service is running
