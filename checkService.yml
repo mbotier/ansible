@@ -1,0 +1,8 @@
+---
+  - host: centos-s-1vcpu-1gb-nyc1-01
+    become: true
+    tasks:
+      - name: ensure service is running
+        service:
+          name: sshd
+          enabled: yes
