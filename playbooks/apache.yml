@@ -1,8 +1,7 @@
 ---
   - hosts: all
-
     vars:
-      package_name = "httpd"
+      package_name: "httpd"
 
     tasks:
       - include: installApache.yml
