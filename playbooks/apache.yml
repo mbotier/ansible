@@ -3,4 +3,4 @@
     tasks:
       - include: installApache.yml
       - name: start apache
-        service: name={{ package_name}} state=started
+        service: name={{ package_name }} state=started
