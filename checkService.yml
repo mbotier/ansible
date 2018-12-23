@@ -1,5 +1,5 @@
 ---
-  - hosts: 157.230.10.90
+  - hosts: all
     become: true
     tasks:
       - name: ensure service is running
